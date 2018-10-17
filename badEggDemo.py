@@ -18,7 +18,7 @@ def replyTweet(username, status_id):
 	else:
 		api.update_status('@{0} You\'re a good egg.'.format(username), in_reply_to_status_id=status_id)
 
-#keys:
+#keys: note that you need unique keys from twitter API
 consumer_key = "xxx"
 consumer_secret = "xxx"
 access_token = "xxx"
